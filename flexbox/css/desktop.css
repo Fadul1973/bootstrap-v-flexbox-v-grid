@@ -1,0 +1,43 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 160px;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0;
+}
+header,
+footer {
+  max-width: 1200px;
+  margin: auto;
+}
+/* main section:first-child {
+  display: flex;
+  flex-direction: row;
+} */
+main section {
+  display: flex;
+  flex-direction: row;
+}
+main section div {
+  padding: 15px;
+}
+.topNews > div {
+  flex: 1 1 33%;
+}
+.topNews > div:first-child {
+  flex: 1 1 66%;
+}
+.newsItems > div {
+  flex: 1 1 33%;
+}
+.lrgContainer.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 160px; /* Set the fixed height of the footer here */
+}
